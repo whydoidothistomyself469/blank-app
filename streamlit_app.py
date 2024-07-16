@@ -89,10 +89,10 @@ def home():
     with left_column:
         st.header("About Me! 🤖")
         st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
-        st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in ICT, where solving problems, whether it’s debugging a program or using ICT to address real-world issues, is common.")
-        st.write("The first instance where my interest in ICT sparked was in Primary School. Seeing the IT support team coming in the computer lab to help us fix issues that I never understood and yet, they were able to fix them in a couple of minutes. This left a great impression on me. The biggest question in my head was always “How?”.")
-        st.write("I was curious how they knew what the problem was, how did they know how to fix it, how did an issue like this occurred in the first place. But I was hindered as my family did not own a laptop at the time.")
-        st.write("When I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in ICT. As the deeper I explored, the more I realized the true extent to which ICT is used in every aspect of our lives, the more amazed I became. From softwares to telecommunications. I knew already that I wanted to be apart of it in some way.")
+        st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in Electronics and Computer Engineering, where solving problems, whether it’s debugging a program or troubleshooting circuits, is common.")
+        st.write("The first instance where my interest in Electronics and Computer Engineering sparked was in Secondary School. . The biggest question in my head was always “How?”.")
+        st.write(".")
+        st.write("When I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in programming. I knew already that I wanted to be apart of it in some way.")
 
     with right_column:
         st_lottie(lottie_code, height = 400, key = "computer")
@@ -105,10 +105,10 @@ def NYP():
     with left_column2:
        st.write("---")
        st.title("Why I chose NYP🏫")
-       st.write("From the many times I have visited NYP, I found myself in awe with not only the environment but the facilities as well. I find TP’s environment to be vibrant and unique as each sector is completely different from each other, all integrated with technology.")
+       st.write("From the many times I have visited NYP, I found myself in awe with not only the environment but the facilities as well. I find NYP’s environment to be vibrant and unique as each sector is completely different from each other, all integrated with technology.")
        st.write("")
        st.write("Furthermore")
-       st.write("
+       st.write("")
 
     with right_column2:
         st_lottie(lottie_code3, height = 400, key = "man")
@@ -177,7 +177,7 @@ def projects():
            It took a while but I eventually got the hang of it.
            By 12/7/2024, I completed my first ever "website" with only 240 lines of code. (You can see the code through my Github Profile)
         """)
-        st.write("I made this as not only did I want to challenge myself, I wanted prove to you that I am truly intrested in this course, I am passionate about coding and I am willing to always learn new things")
+        st.write("I made this as not only did I want to challenge myself, I wanted prove to you that I am truly intrested in this course, I am passionate about coding and I am willing to always learn new things.")
         st.write("I have made other projects such as a simple Rock, Papers, Scissors and a Pascals Triangle Calculator, simple calculators but this is by far the most difficult challenge I have set and done myself and most proud to show you!")
     with left_column4:
         st_lottie(lottie_code6, height = 400, key = "waves")
