@@ -211,9 +211,9 @@ class MultiApp:
                 menu_title="Navigation",
                 menu_icon='sign-turn-slight-right-fill',
 
-                options=['About Me','Why I Chose TP', 'Experience And Values', 'Achievements','Project','Contacts'],
+                options=['About Me', 'Experience And Values', 'Achievements','Project','Contacts'],
 
-                icons=['person-circle','house-fill', 'filter-circle', 'trophy-fill','person-workspace','info-circle-fill'],
+                icons=['person-circle', 'filter-circle', 'trophy-fill','person-workspace','info-circle-fill'],
 
                 default_index=0,
 
