@@ -112,7 +112,7 @@ def val():
        st_lottie(lottie_code4, height = 400, key = "idk")
 
 def achievements():
-    
+  #Why do they make centering so hard  
     left_column3, right_column3 = st.columns((2, 3))
     with left_column3:
         st.write("---")
