@@ -90,28 +90,13 @@ def home():
         st.header("About Me! 🤖")
         st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
         st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in Electronics and Computer Engineering, where solving problems, whether it’s debugging a program or troubleshooting circuits, is common.")
-        st.write("The first instance where my interest in Electronics and Computer Engineering sparked was in Secondary School. . The biggest question in my head was always “How?”.")
+        st.write("The first instance where my interest in Electronics and Computer Engineering sparked was in Secondary School. When I first too.")
         st.write(".")
         st.write("When I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in programming. I knew already that I wanted to be apart of it in some way.")
 
     with right_column:
         st_lottie(lottie_code, height = 400, key = "computer")
         st_lottie(lottie_code2, height = 500, key = "phone")   
-
-def NYP():
-    left_column2, right_column2 = st.columns(2)
-
-#Why I chose NYP
-    with left_column2:
-       st.write("---")
-       st.title("Why I chose NYP🏫")
-       st.write("From the many times I have visited NYP, I found myself in awe with not only the environment but the facilities as well. I find NYP’s environment to be vibrant and unique as each sector is completely different from each other, all integrated with technology.")
-       st.write("")
-       st.write("Furthermore")
-       st.write("")
-
-    with right_column2:
-        st_lottie(lottie_code3, height = 400, key = "man")
 
 def val():
     left_column2, right_column2 = st.columns(2)
@@ -243,8 +228,6 @@ class MultiApp:
 # Page loader
         if app == 'About Me':
             print(home())
-        if app == "Why I Chose TP":
-            print(NYP())   
         if app == "Experience And Values":
             print(val())
         if app == "Achievements":
