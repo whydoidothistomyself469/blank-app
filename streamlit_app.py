@@ -90,9 +90,9 @@ def home():
         st.header("About Me! 🤖")
         st.write("Born in 2008. I am a student from Compassvale Secondary School. A hobby of mine is to explore new places, tinker around with digital circuits and creating things in python. ")
         st.write("As a person who loves to tackle problems, no matter the difficulty, this has tremendously built up my critical thinking skills. These skills are crucial in Electronics and Computer Engineering, where solving problems, whether it’s debugging a program or troubleshooting circuits, is common.")
-        st.write("The first instance where my interest in Electronics and Computer Engineering sparked was in Secondary School. When I first too.")
-        st.write(".")
-        st.write("When I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in programming. I knew already that I wanted to be apart of it in some way.")
+        st.write("The first instance where my interest in Electronics sparked was in Secondary School. When I first took electronics as a subject, I expected it to be similiar to D&T but I was very wrong. I enjoyed learning about how each little component in a cirucit works to create something bigger to solve a specific issue or measurement of analytics. My interest in Electronics helped the information I learnt to be retained which is reflected in my academic results for the subject. It also gave me opportunities to enter competitions such as the TP Engineering Olympiad.")
+        st.write("When I was young, I was always curious of how computer systems and code worked. Being an avid gamer was a catalyst that helped my interest in programming grow which lead me to join the Robotics Club in Secondary 1. Only having a phone at the time limited my ability to learn coding languages such as python as I was only able to understand it in theory. This caused me to slow down on learning how to code, but it improved my coding skills in robotics.")
+        st.write("However, when I was in Secondary 2, I received the PLD in the form of a laptop. This re-ignited my interest in programming and computer systems. I knew already that I wanted to be apart of it in some way. A course such as this, where I combined both my biggest interests into one, is perfect for me.")
 
     with right_column:
         st_lottie(lottie_code, height = 400, key = "computer")
@@ -112,7 +112,7 @@ def val():
        st_lottie(lottie_code4, height = 400, key = "idk")
 
 def achievements():
-  #Why do they make centering so hard  
+  #Why do they make centering so hard, I should've done this is HTML or JAVA
     left_column3, right_column3 = st.columns((2, 3))
     with left_column3:
         st.write("---")
